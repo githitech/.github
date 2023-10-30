@@ -1,0 +1,94 @@
+name: Bug Report
+description: "Found a bug? We'd appreciate if you'd first search through our open issues and docs, to make sure the issue isn't already known."
+labels: ["bug", "new"]
+body:
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+      placeholder:
+      value:
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder:
+      value:
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Steps to Reproduce
+      description: |
+        Please list the full steps required to reproduce the issue, for example:
+          1. Go to '...'
+          2. Click on '...'
+          3. Scroll down to '...'
+          4. See error '...'
+      placeholder:
+      value:
+    validations:
+      required: true
+
+  - type: textarea
+    id: add-context
+    attributes:
+      label: Additional Context
+      description: |
+        Are there anything atypical about your situation that we should know?
+      placeholder:
+      value:
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: "Version of the app, tool, or library. For example: 1.0.0"
+      placeholder:
+      value:
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: "Operating system and/or browser version"
+      description: "For example: macOS Ventura - Chrome 113.0.5672.126 (Official Build) (arm64)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: "blocker"
+    attributes:
+      label: "Does this bug block you from using the app, tool, or library daily?"
+      description: "All feedback will be reviewed, even if you select 'No'."
+      multiple: false
+      options:
+        - "No"
+        - "Yes"
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: |
+        Is there any other GitHub issues (open or closed) or Pull Requests that should be linked here? For example:
+          - #480
+      placeholder:
+      value:
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** If the submit button is disabled and you have filled out all required fields, please check that you did not forget a **Title** for the issue.

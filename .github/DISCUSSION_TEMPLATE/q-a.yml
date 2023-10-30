@@ -1,0 +1,17 @@
+labels: [question]
+body:
+- type: dropdown
+  attributes:
+    label: Project
+    description: Which project would you like to ask a question about?
+    options:
+      - "githi"
+      - "githi-importer"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Question
+    description: Start your discussion!
+  validations:
+    required: true

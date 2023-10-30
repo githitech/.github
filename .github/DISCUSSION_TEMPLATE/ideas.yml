@@ -1,0 +1,17 @@
+labels: [idea]
+body:
+- type: dropdown
+  attributes:
+    label: Project
+    description: Which project would you like to give an idea about?
+    options:
+      - "githi"
+      - "githi-importer"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Idea
+    description: Start your discussion!
+  validations:
+    required: true
