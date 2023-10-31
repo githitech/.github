@@ -33,11 +33,11 @@ to <hi@githi.io>.
 
 > If you want to ask a question, we assume that you have read the available [Documentation](https://githi.io/docs).
 
-Before you ask a question, it is best to search for existing [Discussions](https://github.com/orgs/githi/discussions) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
+Before you ask a question, it is best to search for existing [Discussions](https://github.com/orgs/githitech/discussions) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
 
 If you then still feel the need to ask a question and need clarification, we recommend the following:
 
-- Ask a question on [Discussions](https://github.com/orgs/githi/discussions/categories/q-a).
+- Ask a question on [Discussions](https://github.com/orgs/githitech/discussions/categories/q-a).
 - Provide as much context as you can about what you're running into.
 - Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant.
 
@@ -57,7 +57,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 - Make sure that you are using the latest version.
 - Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [documentation](https://githi.io/docs). If you are looking for support, you might want to check [this section](#i-have-a-question)).
-- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [discussions](https://github.com/orgs/githi/discussions).
+- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [discussions](https://github.com/orgs/githitech/discussions).
 - Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
 - Collect information about the bug:
   - Stack trace (Traceback)
@@ -99,7 +99,7 @@ This section guides you through submitting an enhancement suggestion for the pro
 <!-- omit in toc -->
 #### How Do I Submit a Good Enhancement Suggestion?
 
-Enhancement suggestions are tracked as [GitHub discussions](https://github.com/orgs/githi/discussions/categories/ideas).
+Enhancement suggestions are tracked as [GitHub discussions](https://github.com/orgs/githitech/discussions/categories/ideas).
 
 - Use a **clear and descriptive title** for the issue to identify the suggestion.
 - Provide a **step-by-step description of the suggested enhancement** in as many details as possible.

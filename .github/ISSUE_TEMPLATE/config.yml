@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Discussions
-    url: https://github.com/orgs/githi/discussions/
+    url: https://github.com/orgs/githitech/discussions/
     about: Search questions and ideas.
   - name: Confidential Issues and Bugs
     url: "https://www.githi.io/confidential.htm"
